@@ -1,3 +1,5 @@
+![Login Screen](https://ruzpvxzglurtfovcphuc.supabase.co/storage/v1/object/public/assets/login%20monkmodeapp.png)
+
 # 🧘🏽‍♂️ SHIO MONK MODE - Habit Tracker
 
 Sistema de gestión de disciplina y registro de métricas de productividad personal. Esta aplicación permite a los usuarios monitorear sus hábitos diarios bajo la metodología "Monk Mode", centralizando la información en una arquitectura de datos en la nube.
