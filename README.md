@@ -1,4 +1,4 @@
-![Login Screen]([https://ruzpvxzglurtfovcphuc.supabase.co/storage/v1/object/public/assets/login%20monkmodeapp.png](https://ruzpvxzglurtfovcphuc.supabase.co/storage/v1/object/public/assets/login%20monkmodeapp.png))
+![Login Screen](https://ruzpvxzglurtfovcphuc.supabase.co/storage/v1/object/public/assets/login%20monkmodeapp.png)
 
 # 🧘🏽‍♂️ SHIO MONK MODE - Habit Tracker
 
