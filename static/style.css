@@ -17,6 +17,27 @@ body {
     background-size: cover;
     position: relative;
     z-index: 1;
+    /* Cambiamos el alineado para que NO centre verticalmente */
+    display: block !important; 
+    padding-top: 5vh !important; /* Esto define qué tan cerca del borde superior quieres el logo */
+}
+/* 2. Quitamos espacios del contenedor del logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0 !important;
+    margin-bottom: -40px !important; /* Margen negativo agresivo para "pegar" el logo al cuadro */
+}
+/* 3. Ajuste del logo para que no ocupe tanto espacio vertical */
+.app-logo {
+    width: 260px; /* Reducimos un poco el tamaño para ganar espacio */
+    height: auto;
+    filter: drop-shadow(0px 0px 8px rgba(0, 212, 255, 0.6));
+}
+
+/* Efecto opcional al pasar el mouse */
+.app-logo:hover {
+    transform: scale(1.05);
 }
 
 /* Capa oscura sobre la imagen para que el texto sea legible */
@@ -30,6 +51,7 @@ body {
 
 /* --- TARJETA EFECTO WINDOWS 7 (GLASSMORPHISM) --- */
 .glass-card {
+    margin: 0 auto !important;
     background: rgba(30, 30, 30, 0.55) !important; /* Transparencia */
     backdrop-filter: blur(15px); /* El desenfoque tipo Aero */
     -webkit-backdrop-filter: blur(15px);
@@ -48,7 +70,24 @@ body {
 /* Navbar Personalizada */
 .navbar {
     border-bottom: 1px solid #333;
-    padding: 0.8rem 1rem;
+    padding: 0.1rem 1rem;
+}
+/* Estilo para el logo dentro de la Navbar */
+.navbar-brand img {
+    height: 180px; /* Altura ideal para que no ensanche la barra */
+    width: auto;  /* Mantiene la proporción */
+    filter: drop-shadow(0px 0px 5px rgba(0, 212, 255, 0.4)); /* Brillo sutil */
+    transition: transform 0.2s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1); /* Efecto de crecimiento al pasar el mouse */
+}
+
+/* Ajuste de alineación para el contenedor de la navbar */
+.navbar .container {
+    display: flex;
+    align-items: center;
 }
 
 /* Tipografía y Colores */
